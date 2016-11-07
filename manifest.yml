@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ryb-nov7
+  host: ryb-nov7
+  disk_quota: 1024M
+  services:
+  - ryb-nov7-cloudantNoSQLDB
